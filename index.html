@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Portfolio Icon.ico"/>
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#encabezado">Alan Lionel Figueredo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#miPortfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#acercaDeMi">Acerca de mí</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+    <div class="container-fluid encabezado" id="encabezado">
+      <div class="row">
+        <div class="col-sm-12 col-lg-12">
+          <div class="jumbotron jumbotron-fluid text-light bg-dark justify-content-center">
+            <div class="container encabezado">
+              <img src="Perfil.jpeg" alt="Perfil">
+              <h1 class="display-4">Alan Lionel Figueredo Aguiar</h1>
+              <p class="lead">Estudiante de ingeniería.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid miPortfolio" id="miPortfolio">
+      <div class="row">
+        <div class="col-sm-12 col-lg-12">
+          <h1>PORTFOLIO</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-lg-4">
+          <a href="Color Game/index.html" target="_blank"><img src="Color Game/Color Game.jpg" alt="Color Game"></a>
+          <h2>Color Game</h2>
+        </div>
+        <div class="col-sm-12 col-lg-4">
+          <a href="To Do List/index.html" target="_blank"><img src="To Do List/To Do List.jpg" alt="To Do List"></a>
+          <h2>To Do List</h2>
+        </div>
+        <div class="col-sm-12 col-lg-4">
+          <a href="Weather Channel/index.html" target="_blank"><img src="Weather Channel/Weather Channel.jpg" alt="Weather Channel"></a>
+          <h2>Weather Channel</h2>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid acercaDeMi" id="acercaDeMi">
+      <div class="row">
+        <div class="col-sm-12 col-lg-12">
+          <h1>ACERCA DE MÍ</h1>
+          <p class="lead">
+            Hola, me llamo Lionel, tengo 23 años y soy estudiante de ingeniería. He tenido la oportunidad 
+            de utilizar Python en la facultad y JavaScript en otros cursos. Desde entonces, y con 
+            la potencial utilidad que proporcionan estas herramientas hoy en día, tengo ganas de 
+            aprender más sobre el rubro de la programación.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid contacto" id="contacto">
+      <div class="row">
+        <div class="col-sm-12 col-lg-12">
+          <h1>CONTACTO</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-lg-12">
+          <form id="formulario"  action="https://formspree.io/f/xrgrvazq" method="POST">
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="nombre" name="Nombre" placeholder="Ingrese su nombre..." required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" name="Email" placeholder="Ingrese su mail..." required>
+            </div>
+            <div class="mb-3">
+              <label for="telefono" class="form-label">Teléfono</label>
+              <input type="tel" class="form-control" id="telefono" name="Telefono" placeholder="Ingrese su teléfono..." required>
+            </div>
+            <div class="mb-3">
+              <label for="mensaje" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="mensaje" name="Mensaje" placeholder="Escriba aquí su mensaje..." required></textarea>
+            </div>
+             <button type="submit" class="btn btn-primary">ENVIAR</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row footer">
+        <div class="col-sm-12 col-lg-12">
+          <h1>REDES SOCIALES</h1>
+        </div>
+        <div class="col-sm-12 col-lg-12">
+          <a href="https://www.linkedin.com/in/alan-lionel-figueredo-aguiar-9a538a222?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BsQHSKnHZRJicPYXkY%2BpmIw%3D%3D" class="redes-a" target="_blank">
+            <i class="fab fa-linkedin-in iconos fa-2x"></i>
+          </a>
+        </div>
+      </div>
+      <div class="row copyright">
+        <div class="col-sm-12 col-lg-12">
+          Copyright © Alan Lionel Figueredo Aguiar 2021
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
