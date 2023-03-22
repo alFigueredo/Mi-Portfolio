@@ -1,71 +1,72 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
-    margin: 0 auto;
-    background-color: #232323;
+  margin: 0 auto;
+  background-color: #232323;
 }
 h1 {
-    margin: 0 auto;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-    transition: color 1s, background-color 1s;
+  margin: 0 auto;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  transition: color 1s, background-color 1s;
 }
 .container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 1% 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1% 20px;
 }
 .square {
-    float: left;
-    width: 30%;
-    height: 0;
-    padding-bottom: 30%;
-    background-color: lightblue;
-    margin: 1.5%;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: background-color 1s;
+  float: left;
+  width: 30%;
+  height: 0;
+  padding-bottom: 30%;
+  background-color: lightblue;
+  margin: 1.5%;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 1s;
 }
 #stripe {
-    background-color: white;
-    text-align: center;
-    align-items: flex-start;
+  background-color: white;
+  text-align: center;
+  align-items: flex-start;
 }
 #message {
-    color: black;
-    width: 20%;
-    padding: 6px 8px;
-    font-size: 20px;
-    font-weight: 500;
-    text-align: center;
-    display: inline-block;
+  color: black;
+  width: 20%;
+  padding: 6px 8px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  display: inline-block;
 }
 button {
-    color: #232323;
-    font-weight: 600;
-    font-size: 20px;
-    background: white;
-    border: none;
-    padding: 6px 8px;
-    cursor: pointer;
-    text-transform: uppercase;
-    transition: background 1s, color 1s;
+  color: #232323;
+  font-weight: 600;
+  font-size: 20px;
+  background: white;
+  border: none;
+  padding: 6px 8px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background 1s, color 1s;
 }
 #reset {
-    width: 160px;
+  width: 160px;
 }
-button:hover, .selected {
-    background-color: #232323;
-    color: white
+button:hover,
+.selected {
+  background-color: #232323;
+  color: white;
 }
 @media screen and (max-width: 800px) {
-    #stripe {
-        align-items: baseline;
-    }
-    #message {
-        display: block;
-        width: auto;
-    }
+  #stripe {
+    align-items: baseline;
+  }
+  #message {
+    display: block;
+    width: auto;
+  }
 }
